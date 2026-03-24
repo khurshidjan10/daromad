@@ -3,7 +3,9 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 import json, os, re
 from datetime import datetime
 
-TOKEN = "8773128337:AAGND9r34kPdfb-kNibYUbP31vorwXJdkfg"
+import os
+
+TOKEN = os.getenv("8773128337:AAGND9r34kPdfb-kNibYUbP31vorwXJdkfg")
 DB = "data.json"
 
 # ================= DB =================
